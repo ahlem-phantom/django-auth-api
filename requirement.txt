@@ -1,4 +1,0 @@
-Django>=4.2
-djangorestframework
-djangorestframework-simplejwt
-djangorestframework-api-key
