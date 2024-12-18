@@ -75,7 +75,7 @@ You'll be prompted to enter a username, email, and password for the admin accoun
   - ` /login/`  - User Login: Authenticate and get a session cookie for session-based authentication.
   - ` /posts/`  - Get All Posts: Retrieve a list of all posts.
   - `/posts/<int:id>/`  - Get Post By ID: Retrieve a specific post by its ID.
-  - `/posts/create/`  - Create a New Post: Create a new post with authentication. give me readme just this one
+  - `/posts/create/`  - Create a New Post: Create a new post with authentication. 
 
 
 In this step, I logged in to get the session cookies (including the session ID and CSRF token). These cookies were then used to authenticate a request for creating a new post.
